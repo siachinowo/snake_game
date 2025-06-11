@@ -15,7 +15,7 @@ int main(){
     do{
         food_x = rand() % grid_size;
         food_y = rand() % grid_size ;
-    }while (grid[food_x][food_y] != grid[head_x][head_y]);
+    }while ((food_x == head_x && food_y == head_y) || grid[food_x][food_y] != ' ');
 
 
     // basic control input _______________________________________________________________________________________________
@@ -86,7 +86,7 @@ int main(){
                 srand(time(NULL));
                 food_x = rand() % grid_size;
                 food_y = rand() % grid_size;
-            } while (grid[food_x][food_y] != grid[head_x][head_y] || grid[food_x][food_y] != ' ');
+            } while ((food_x == head_x && food_y == head_y) || grid[food_x][food_y] != ' ');
 
             grid[food_x][food_y] = '*';
         }
