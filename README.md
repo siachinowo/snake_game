@@ -1,6 +1,7 @@
 This is a course project of programing fundamentals.\
 The goal was to make a simple terminal based traditional snake game, where the snake EATS, Grows, and DIES.\
 SCORE COUNT, LEVELS and proper REPRESENTABLE GENERATION OF STAGE was added later on to improve.\
+VEDIO showing the game is in branch named "vedio".
 _____________________________________________________________
 CONTROLS:
 - w for going upward
