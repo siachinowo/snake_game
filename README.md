@@ -15,20 +15,20 @@ _____________________________________________________________
 G A M E    O V E R !\
 y o u   l o s e\
 Booooo, noob!\
-Final score: x\
+Final score: x
 
 
 - if you're able reach 4th level or higher, you'll see:\
 G A M E    O V E R !\
 y o u   l o s e\
 dang-! you really don't have a life\
-Final score: x\
+Final score: x
 
 
 - on quitting:\
 Game Quitted!\
 did you not like my game?\
-:(\
+:(
 
 _____________________________________________________________
 COMPATIBILITY:\
