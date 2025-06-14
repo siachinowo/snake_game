@@ -86,7 +86,8 @@ int main()
         for(int i = 0; i <= grid_size; i++){
             printf("_");
         }
-        printf("\n");
+        printf("\n\n");
+        printf("press 'enter' after every input, as game is made by langry <3\n");
 
         //taking input ________________________________________
         char input = getchar();
@@ -171,7 +172,12 @@ int main()
     }
 
     if(game_over == 1){
-        printf("G A M E  O V E R !\n  y o u  l o s e\n   Boooooo, noob!\n  Final score :%d\n",score);      
+        if(level < 4){
+            printf("\nG A M E  O V E R !\n  y o u  l o s e\n  Final score: %d\n\n   Boooo, noob!\n",score); 
+        }
+        else{
+            printf("\nG A M E  O V E R !\n  y o u  l o s e\n  Final score: %d\n\n   dang-! got nothing better to do?",score);
+        }     
     }
 
     return 0;
